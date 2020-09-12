@@ -12,7 +12,6 @@ namespace GuessingGame
             {
                 Random random = new Random();
                 int randomNumber = random.Next(1, 101);
-                Console.WriteLine($"Random Number = {randomNumber}");
                 bool userWon = false;
                 for (int i = 5; i > 0; i--)
                 {

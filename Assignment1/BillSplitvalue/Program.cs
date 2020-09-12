@@ -6,7 +6,7 @@ namespace BillSplitvalue
     {
         static void Main()
         {
-            Console.WriteLine("biil split value per person (2 people) (in apartment) calculation... ");
+            Console.WriteLine("bill split value per person (2 people) (in apartment) calculation... ");
             Console.Write("Enter roommate salary (Rs.): ");
             decimal salary1 = decimal.Parse(Console.ReadLine());
             Console.Write("Enter your salary (Rs.): ");
