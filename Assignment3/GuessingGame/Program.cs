@@ -21,7 +21,6 @@ namespace GuessingGame
         private static void StartGame()
         {
             int randomNumber = GenerateRandomNumber();
-            Console.WriteLine(randomNumber);
             GuessTheNumber(randomNumber);
         }
 
