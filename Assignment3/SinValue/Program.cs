@@ -8,11 +8,12 @@ namespace SinValue
         {
             double degreeValue = InputDouble("Enter degree: ");
             double radianValue = DegreeToRadian(degreeValue);
-            Console.WriteLine($"sin({ degreeValue }) = { ValueOfSin(radianValue, 1, 1) }");
+            Console.WriteLine($"sin({ degreeValue }) = { Sin(radianValue) }");
         }
 
-        private static double ValueOfSin(double radianValue, int counter, int weightValue)
+        private static double Sin(double radianValue)
         {
+            int counter = 1, weightValue = 1;
             double nextTerm, sumOfSeries = 0;
             do
             {

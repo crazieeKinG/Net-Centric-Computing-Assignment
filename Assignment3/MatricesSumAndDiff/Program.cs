@@ -10,21 +10,23 @@ namespace MatricesSumAndDiff
             int column = InputInt("Enter no. of columns: ");
             double[,] matrix1 = new double[row, column], matrix2 = new double[row, column];
             GetMatrices(row, column, matrix1, matrix2);
-            SumOfMatrices(row, column, matrix1, matrix2);
-            DifferenceOfMatrices(row, column, matrix1, matrix2);
+            SumOfMatrices(matrix1, matrix2);
+            DifferenceOfMatrices(matrix1, matrix2);
         }
 
-        private static void SumOfMatrices(int row, int column, double[,] matrix1, double[,] matrix2)
+        private static void SumOfMatrices(double[,] matrix1, double[,] matrix2)
         {
-            double[,] matrix = new double[row, column];
+            int row = matrix1.GetLength(0), column = matrix1.GetLength(1);
+            double[,] matrix = new double[row,column];
             for (int i = 0; i < row; i++)
                 for (int j = 0; j < column; j++)
                     matrix[i, j] = matrix1[i, j] + matrix2[i, j];
             DisplayMatrix(row, column, matrix, "Sum:");
         }
 
-        private static void DifferenceOfMatrices(int row, int column, double[,] matrix1, double[,] matrix2)
+        private static void DifferenceOfMatrices(double[,] matrix1, double[,] matrix2)
         {
+            int row = matrix1.GetLength(0), column = matrix1.GetLength(1);
             double[,] matrix = new double[row, column];
             for (int i = 0; i < row; i++)
                 for (int j = 0; j < column; j++)
