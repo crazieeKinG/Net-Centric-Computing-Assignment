@@ -7,14 +7,19 @@ namespace Calculator
         static void Main()
         {
             Console.WriteLine("<--- Enter 'exit' to quit --->");
-            while (true)
+            StartCalculator();
+        }
+
+	    private static void StartCalculator()
+	    {
+	        while (true)
             {   
                 string equation = GetEquation().Replace(" ", "");
                 if (equation == "EXIT")
-                    break;
+                    return;
                 OperateTheEquation(equation);
             }
-        }
+	    }
 
         private static void OperateTheEquation(string equation)
         {
