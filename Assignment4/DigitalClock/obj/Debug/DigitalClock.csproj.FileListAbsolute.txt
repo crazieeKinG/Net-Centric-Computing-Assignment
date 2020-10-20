@@ -1,0 +1,10 @@
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\bin\Debug\DigitalClock.exe.config
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\bin\Debug\DigitalClock.exe
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\bin\Debug\DigitalClock.pdb
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.csprojAssemblyReference.cache
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.MainForm.resources
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.Properties.Resources.resources
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.csproj.GenerateResource.cache
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.csproj.CoreCompileInputs.cache
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.exe
+D:\Bsc\6th Sem\Software Engineering\Assignment\Assignment4\DigitalClock\obj\Debug\DigitalClock.pdb
