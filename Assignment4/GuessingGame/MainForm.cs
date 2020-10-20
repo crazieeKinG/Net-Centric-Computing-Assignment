@@ -10,6 +10,11 @@ namespace GuessingGame
 
         public MainForm()
         {
+            LoadGame();
+        }
+
+        private void LoadGame()
+        {
             InitializeComponent();
             GenerateRandomNumber();
             attempts = 5;
@@ -79,10 +84,7 @@ namespace GuessingGame
         private void ReplayButton_Click(object sender, EventArgs e)
         {
             Controls.Clear();
-            InitializeComponent();
-            GenerateRandomNumber();
-            attempts = 5;
-            AttemptMessage();
+            LoadGame();
         }
 
         private void messageDisplay(Color colorName, string displayText)

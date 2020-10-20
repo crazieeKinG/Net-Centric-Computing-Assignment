@@ -100,7 +100,6 @@
             this.messageLabel.Name = "messageLabel";
             this.messageLabel.Size = new System.Drawing.Size(460, 30);
             this.messageLabel.TabIndex = 4;
-            this.messageLabel.Text = "You Won !!!";
             this.messageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // infoLabel
@@ -114,7 +113,6 @@
             this.infoLabel.Name = "infoLabel";
             this.infoLabel.Size = new System.Drawing.Size(460, 30);
             this.infoLabel.TabIndex = 5;
-            this.infoLabel.Text = "Correct Answer: 12";
             this.infoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // replayButton
